@@ -18,7 +18,7 @@ public class TeorriaArrays {
     public static void main(String[] args) {
         // TODO code application logic here
         int [] notes;
-        int nota;
+        int copia_notes;
         notes=new int[4];
         notes[0]=3;
         notes[1]=4;

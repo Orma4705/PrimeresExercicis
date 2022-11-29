@@ -21,7 +21,7 @@ public class Funcions {
 
     static void mostrarArray(int[] valores) {
         for (int i = 0; i < valores.length; i++) {
-            System.out.println("Posicio "+ i + " conte -> "+ valores[i]);
+            System.out.println("Posicio "+ (i+1) + " conte -> "+ valores[i]);
             }
     }
 }
