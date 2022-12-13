@@ -39,6 +39,9 @@ public class LeerLetras_Contarlas {
             vocales[4] = vocales[4]+1;
             }
         }
-    }
-    
+        char[] letras = {'A','E','I','O','U'};
+        for (int i = 0; i < vocales.length; i++) {
+            System.out.println("Numero de vocals "+ letras[i] + "'s conte -> "+ vocales[i]);
+            }    
+    }  
 }
