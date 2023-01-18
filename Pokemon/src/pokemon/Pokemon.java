@@ -77,7 +77,7 @@ public class Pokemon {
         ataquePokemon(tiposPokemon, efectividadesPokemon);
         }
         else if (eleccio==2){
-            mostrarDebilidades();
+            mostrarDebilidades(efectividadesPokemon,tiposPokemon);
         }
         
        
